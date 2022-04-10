@@ -18,7 +18,7 @@ const cooldowns = new Discord.Collection();
 client.once('ready', () => {
   console.log('Ready!');
   client.user.setActivity(`${prefix}help`, { type: 'WATCHING' });
-});
+}); 
 
 client.on('guildMemberAdd', member => {
   let wchannel = (913810543628931136)
