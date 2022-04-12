@@ -85,4 +85,8 @@ const keepAlive = require("./server");
 
 keepAlive();
 
-client.login(process.config.token);
+//client.login(process.config.token);
+
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
