@@ -1,6 +1,2 @@
-web: node server.js
-<<<<<<< HEAD
+web:node index.js
 worker: node node.js
-=======
-worker: node worker.js
->>>>>>> da743987912a8ec6746a88a33e3b0c4226236142
