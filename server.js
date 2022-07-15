@@ -22,9 +22,9 @@ function keepAlive() {
 
 module.exports = keepAlive;
 
-const app = require('http').createServer((req, res) => res.send('Hello world'));
+/*const app = require('http').createServer((req, res) => res.send('Hello world'));
 const PORT = process.config.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`Server is ready to listen on port ${PORT}`);
-});
+});*/
