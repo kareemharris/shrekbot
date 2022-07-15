@@ -1,2 +1,2 @@
-worker: node server.js
-web: node index.js
+worker: node index.js
+web: node dist/server.js
