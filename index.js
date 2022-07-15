@@ -1,7 +1,6 @@
 const fs = require('fs');
 const Discord = require('discord.js');
-//const config = require('./config.json');
-//const { prefix , token } = require('./config.json');
+const { prefix , token } = require('./config.json');
 
 const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 client.commands = new Discord.Collection();
@@ -86,4 +85,4 @@ const keepAlive = require("./server");
 
 keepAlive();
 
-//client.login(process.config.token);
+client.login(process.config.token);
