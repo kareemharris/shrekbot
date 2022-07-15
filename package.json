@@ -42,9 +42,9 @@
   "scripts": {
     "start": "node index.js"},
   "serve -s build": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "name": "testbot-korkom-1-main",
+  "name": "shrekbot122",
   "version": "1.0.0",
   "main": "index.js",
   "author": "",
