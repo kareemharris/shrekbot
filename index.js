@@ -79,10 +79,10 @@ client.on('message', message => {
 });
 
 client.login(token);
-const keepAlive = require("./server");
+/*const keepAlive = require("./server");
 
 
 
-keepAlive();
+keepAlive();*/
 
 client.login(process.config.token);

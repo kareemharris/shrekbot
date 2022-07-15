@@ -40,7 +40,8 @@
     "ws": "^7.4.1"
   },
   "scripts": {
-    "start": "node index.js"},
+    "start": "node index.js"
+  },
   "serve -s build": {
     "start": "node index.js"
   },
