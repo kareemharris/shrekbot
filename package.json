@@ -39,6 +39,8 @@
     "tweetnacl": "^1.0.3",
     "ws": "^7.4.1"
   },
+  "scripts": {
+    "start": "node index.js"},
   "serve -s build": {
     "start": "node server.js"
   },
